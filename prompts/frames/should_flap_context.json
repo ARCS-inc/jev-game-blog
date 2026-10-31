@@ -1,0 +1,8 @@
+{
+  "type": "choice",
+  "instructions": "{lead} The state holds values measured from the game. The red round bird must pass through the gap between the upper and lower green posts ahead of it. Flapping makes it jump up a lot, so it should flap only when it is both below the middle of the gap and falling {now}. Should it flap now?",
+  "criteria": {
+    "flap": "Flap: the bird is below the middle of the gap and falling",
+    "wait": "Wait: the bird is above the middle of the gap, or it is still rising"
+  }
+}

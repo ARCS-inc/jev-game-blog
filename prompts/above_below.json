@@ -1,0 +1,8 @@
+{
+  "type": "choice",
+  "instructions": "This is a screenshot of a Flappy Bird style game. Find the red round bird and the nearest pair of green posts to the right of it. Between the upper post and the lower post there is an empty gap. Is the center of the bird above or below the middle of that gap?",
+  "criteria": {
+    "above": "The bird is higher than the middle of the gap",
+    "below": "The bird is lower than the middle of the gap"
+  }
+}

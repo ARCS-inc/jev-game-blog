@@ -1,0 +1,8 @@
+{
+  "type": "choice",
+  "instructions": "This is a screenshot of a Flappy Bird style game. The red round bird on the left must fly through the gap between the upper and lower green posts and must not touch the posts or the sandy ground. Gravity pulls the bird down; flapping makes it jump up. Look at the vertical position of the bird compared with the gap of the nearest post ahead of it. What should the bird do right now?",
+  "criteria": {
+    "flap": "Flap: the bird is below the middle of the gap (or close to the ground) and must go up",
+    "wait": "Wait: the bird is at or above the middle of the gap and should fall a little"
+  }
+}

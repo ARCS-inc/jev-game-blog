@@ -1,0 +1,3 @@
+[submodule "opengames"]
+	path = opengames
+	url = https://github.com/opengames-dev/opengames-dev.github.io.git

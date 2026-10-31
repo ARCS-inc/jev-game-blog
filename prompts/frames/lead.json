@@ -1,0 +1,6 @@
+{
+  "one": "This is a screenshot of a Flappy Bird style game.",
+  "many": "These {n} images are consecutive screenshots of a Flappy Bird style game, oldest first, taken at equal short intervals. The last image is the current moment.",
+  "now_one": "",
+  "now_many": "in the last image"
+}

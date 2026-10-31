@@ -1,0 +1,8 @@
+{
+  "type": "choice",
+  "instructions": "This is a screenshot of a game. Is the red round bird in the upper half or the lower half of the picture?",
+  "criteria": {
+    "upper": "The bird is in the upper half",
+    "lower": "The bird is in the lower half"
+  }
+}

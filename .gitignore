@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables file
+.env
+
+# output directory
+outputs/
+
+# private notes (kept out of the public repo)
+docs/

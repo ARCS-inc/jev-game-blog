@@ -1,0 +1,8 @@
+{
+  "type": "choice",
+  "instructions": "{lead} Is the red round bird moving up or moving down right now?",
+  "criteria": {
+    "up": "The bird is moving up",
+    "down": "The bird is moving down (falling)"
+  }
+}

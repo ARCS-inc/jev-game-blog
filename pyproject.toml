@@ -1,0 +1,33 @@
+[project]
+name = "jev-flap"
+version = "0.1.0"
+description = "Experiments having jev play the OpenGames Flap game from browser screenshots"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pillow>=13.0.0",
+    "playwright>=1.64.0",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "transformers>=5.14",
+    "typesafe-sdk[pil]>=0.7.5",
+]
+
+
+[project.scripts]
+jev-flap = "jev_flap:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
+
+[tool.uv]
+default-groups = ["dev"]
